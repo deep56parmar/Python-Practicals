@@ -21,7 +21,29 @@ if(sum == num):
     print("number is armstrong")
 
 #prime number
-
-
+number = 13
+count = 0
+for i in range(2,number//2):
+    if (number % i == 0):
+        count+=1
+if count == 0:
+    print(number , " is prime")
 #palindrome
+
+string = "nitin"
+string1 = ""
+for i in range(len(string)) :
+    string1 += string[len(string)-i-1]
+if string == string1:
+    print ("string is palindrome")
+
 #Fibonacci
+
+number = 5
+def fibo(num):
+    if num <=1:
+         return 1
+    else:
+        return fibo(num-1) + fibo(num-2)
+for i in range(0,number):
+    print (fibo(i))
