@@ -14,6 +14,8 @@ applyToEach(L, int)
 print ('L =', L)
 print ('Apply factorial to each element of', L )
 
+
+
 #Tuple
 def findDivisors (n1, n2):
     """Assumes that n1 and n2 are positive ints
